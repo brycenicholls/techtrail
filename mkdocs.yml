@@ -1,0 +1,26 @@
+site_name: /Tech Trail/
+site_url:  https://techtrail.github.io
+theme: 
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: light blue
+    logo: assets/logo.png
+    favicon: images/favicon.png
+
+
+nav:
+  - Home: index.md
+  - Openstack Client: ost-client.md
+  - inconsistentpgs: ceph-inconsistent-pgs.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
