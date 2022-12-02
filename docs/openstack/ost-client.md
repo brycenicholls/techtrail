@@ -5,7 +5,7 @@ In this example, I am going to install the client in a python virtual environmen
 
 ## PREREQUISITES
 
-!!! Danger
+!!! Warning
     The openstack client only supports python 2.7 at the moment.
 
 ```title="Install python and pip on centos"
@@ -17,7 +17,7 @@ sudo pip install virtualenv
 ```
 
 Once the packages are installed, create a folder for your virtual environments.
-I am calling the folder ‘venvs’ and changing into that directory.
+I am naming the folder ‘venvs’ and changing into that directory.
 
 ```bash
 mkdir venvs && cd venvs

@@ -1,6 +1,6 @@
 # ABOUT ME
 
-```bash
+```yaml
 tail -f /var/log/career
 ```
 
@@ -12,7 +12,3 @@ I broke the Serial over LAN (SOL) network and had to figure out how to fix it be
 My experience now spans technologies such as Networking, vSphere, vCenter, vCloud Director, Openstack etc…
 
 I have built this website with a view to blog about the technologies I use and to write tutorials on how i use those technologies.
-
-[Subscribe to our newsletter](#){ .md-button }
-
-[Send :fontawesome-solid-paper-plane:](#){ .md-button }

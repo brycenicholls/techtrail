@@ -2,6 +2,10 @@ site_name: /Tech Trail/
 site_url:  https://techtrail.github.io
 theme: 
   name: material
+  features: 
+    - navigation.sections
+    - navigation.expand
+    - navigation.tracking
   palette:
     scheme: slate
     primary: blue
@@ -12,8 +16,11 @@ theme:
 
 nav:
   - Home: index.md
-  - Openstack Client: ost-client.md
-  - inconsistentpgs: ceph-inconsistent-pgs.md
+  - Ceph:
+    - Inconsistent PGs: ceph/ceph-inconsistent-pgs.md
+  - Openstack:  
+    - Openstack Client: openstack/ost-client.md
+#  - inconsistentpgs: ceph-inconsistent-pgs.md
 
 markdown_extensions:
   - admonition
