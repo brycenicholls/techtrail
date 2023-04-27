@@ -1,7 +1,6 @@
 ---
 hide:
   - navigation
-  <!-- - toc -->
 ---
 
 # CEPH PGS INCONSISTENT
