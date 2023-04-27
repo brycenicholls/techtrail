@@ -20,6 +20,8 @@ nav:
     - Inconsistent PGs: ceph/ceph-inconsistent-pgs.md
   - Openstack:  
     - Openstack Client: openstack/ost-client.md
+  - Kubernetes:
+    - Command Cheatsheet: Kubernetes/command-cheatsheet.md
 #  - inconsistentpgs: ceph-inconsistent-pgs.md
 
 markdown_extensions:
