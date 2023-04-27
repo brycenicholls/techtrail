@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+  <!-- - toc -->
+---
 **create pod cli:**
 ```
 kubectl run {pod name} --image={image name}

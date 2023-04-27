@@ -1,7 +1,7 @@
 ---
 hide:
   - navigation
-  - toc
+  <!-- - toc -->
 ---
 
 # INSTALLING THE OPENSTACK CLIENT

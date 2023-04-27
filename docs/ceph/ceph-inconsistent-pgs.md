@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  <!-- - toc -->
+---
+
 # CEPH PGS INCONSISTENT
 
 Sometimes you come across issues with the ceph placement groups where you see inconsistent pg errors. This normally indicates a potential issue with the osd.
