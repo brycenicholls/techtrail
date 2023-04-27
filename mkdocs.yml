@@ -21,7 +21,7 @@ nav:
   - Openstack:  
     - Openstack Client: openstack/ost-client.md
   - Kubernetes:
-    - Command Cheatsheet: Kubernetes/command-cheatsheet.md
+    - Command Cheatsheet: kubernetes/command-cheatsheet.md
 #  - inconsistentpgs: ceph-inconsistent-pgs.md
 
 markdown_extensions:
