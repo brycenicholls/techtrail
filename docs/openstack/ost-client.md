@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # INSTALLING THE OPENSTACK CLIENT
 
 In order to interact with the openstack API you will need to install the client.
