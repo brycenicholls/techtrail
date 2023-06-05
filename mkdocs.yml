@@ -2,6 +2,8 @@ site_name: /Tech Trail/
 site_url:  https://techtrail.co.uk/
 theme: 
   name: material
+  custom_css:
+    - css/nord.css
   features: 
     - navigation.sections
     - navigation.expand
