@@ -4,16 +4,16 @@ theme:
   name: material
   custom_css:
     - css/nord.css
-  features: 
-    - navigation.sections
-    - navigation.expand
-    - navigation.tracking
-  palette:
-    scheme: slate
-    primary: blue
-    accent: light blue
-    logo: assets/logo.png
-    favicon: images/favicon.png
+  # features: 
+  #   - navigation.sections
+  #   - navigation.expand
+  #   - navigation.tracking
+  # palette:
+  #   scheme: slate
+  #   primary: blue
+  #   accent: light blue
+  #   logo: assets/logo.png
+  #   favicon: images/favicon.png
 
 
 nav:
