@@ -3,7 +3,7 @@ site_url:  https://techtrail.co.uk/
 theme: 
   name: material
   custom_css:
-    - css/nord-light.css
+    - css/snow-storm.css
   # features: 
   #   - navigation.sections
   #   - navigation.expand
