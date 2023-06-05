@@ -147,3 +147,8 @@ th {
   padding: 1em;
   text-align: center;
 }
+/* Remove 'Made with Material for MkDocs' */
+.footer {
+  display: none;
+}
+
