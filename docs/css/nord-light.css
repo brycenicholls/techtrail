@@ -1,0 +1,149 @@
+
+/* Primary colors */
+:root {
+  --nord0: #eceff4;
+  --nord1: #e5e9f0;
+  --nord2: #d8dee9;
+  --nord3: #c0c5ce;
+  --nord4: #8fbcbb;
+  --nord5: #88c0d0;
+  --nord6: #81a1c1;
+  --nord7: #5e81ac;
+  --nord8: #4c566a;
+  --nord9: #434c5e;
+  --nord10: #3b4252;
+  --nord11: #2e3440;
+  --nord12: #bf616a;
+  --nord13: #d08770;
+  --nord14: #ebcb8b;
+  --nord15: #a3be8c;
+}
+
+/* Body and general styling */
+body {
+  background-color: var(--nord0);
+  color: var(--nord3);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--nord6);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--nord7);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--nord11);
+  font-weight: bold;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* Code blocks */
+pre {
+  background-color: var(--nord1);
+  color: var(--nord5);
+  padding: 1em;
+  overflow: auto;
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+code {
+  color: var(--nord6);
+  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid var(--nord3);
+  padding: 0.5em;
+}
+
+th {
+  background-color: var(--nord2);
+  color: var(--nord11);
+}
+
+/* Navigation and sidebar */
+#mkdocs-search-query {
+  background-color: var(--nord2);
+  color: var(--nord11);
+  border: none;
+}
+
+#mkdocs-search-query:focus {
+  outline: none;
+}
+
+#mkdocs-search-results {
+  background-color: var(--nord1);
+}
+
+.navbar {
+  background-color: var(--nord2);
+  color: var(--nord11);
+}
+
+.navbar a {
+  color: var(--nord11);
+}
+
+.sidebar {
+  background-color: var(--nord1);
+  color: var(--nord11);
+}
+
+.sidebar li a {
+  color: var(--nord11);
+}
+
+.sidebar .current-page > a {
+  color: var(--nord6);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--nord2);
+  color: var(--nord11);
+  padding: 1em;
+  text-align: center;
+}
