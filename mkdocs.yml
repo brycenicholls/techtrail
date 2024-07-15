@@ -1,10 +1,10 @@
 site_name: /Tech Trail/
 site_url:  https://techtrail.co.uk/
-theme: 
-  name: material
+theme:
+  name: slate
   custom_css:
     - css/nord.css
-  # features: 
+  # features:
   #   - navigation.sections
   #   - navigation.expand
   #   - navigation.tracking
@@ -20,7 +20,7 @@ nav:
   - Home: index.md
   - Ceph:
     - Inconsistent PGs: ceph/ceph-inconsistent-pgs.md
-  - Openstack:  
+  - Openstack:
     - Openstack Client: openstack/ost-client.md
   - Kubernetes:
     - Command Cheatsheet: kubernetes/command-cheatsheet.md
