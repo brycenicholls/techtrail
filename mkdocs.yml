@@ -1,9 +1,7 @@
 site_name: /Tech Trail/
 site_url:  https://techtrail.co.uk/
 theme:
-  name: slate
-  custom_css:
-    - css/nord.css
+  name: dracula
   # features:
   #   - navigation.sections
   #   - navigation.expand
